@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "$ref": "#/definitions/github.com/alecthomas/jsonschema.TestUser",
+  "$ref": "#/definitions/github.com/jared2501/jsonschema.TestUser",
   "definitions": {
-    "github.com/alecthomas/jsonschema.GrandfatherType": {
+    "github.com/jared2501/jsonschema.GrandfatherType": {
       "required": [
         "family_name"
       ],
@@ -14,7 +14,7 @@
       "additionalProperties": false,
       "type": "object"
     },
-    "github.com/alecthomas/jsonschema.TestUser": {
+    "github.com/jared2501/jsonschema.TestUser": {
       "required": [
         "some_base_property",
         "some_base_property_yaml",
@@ -38,7 +38,7 @@
         },
         "grand": {
           "$schema": "http://json-schema.org/draft-04/schema#",
-          "$ref": "#/definitions/github.com/alecthomas/jsonschema.GrandfatherType"
+          "$ref": "#/definitions/github.com/jared2501/jsonschema.GrandfatherType"
         },
         "SomeUntaggedBaseProperty": {
           "type": "boolean"

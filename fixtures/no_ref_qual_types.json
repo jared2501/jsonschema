@@ -147,7 +147,7 @@
   "additionalProperties": false,
   "type": "object",
   "definitions": {
-    "github.com/alecthomas/jsonschema.GrandfatherType": {
+    "github.com/jared2501/jsonschema.GrandfatherType": {
       "required": [
         "family_name"
       ],
@@ -159,7 +159,7 @@
       "additionalProperties": false,
       "type": "object"
     },
-    "github.com/alecthomas/jsonschema.TestUser": {
+    "github.com/jared2501/jsonschema.TestUser": {
       "required": [
         "some_base_property",
         "some_base_property_yaml",
